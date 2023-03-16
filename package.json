@@ -73,7 +73,7 @@
     "wdio-lowlight": "terra wdio --themes clinical-lowlight-theme",
     "wdio-fusion": "terra wdio --themes orion-fusion-theme",
     "wdio": "terra wdio --themes terra-default-theme clinical-lowlight-theme orion-fusion-theme",
-    "wdio-default": "WDIO_EXTERNAL_HOST='10.189.194.123' terra wdio --gridUrl grid314.test.devcernerpowerchart.com --browsers chrome --themes orion-fusion-theme --spec packages/terra-notfication-dialog/tests/wdio/notification-dialog-spec.js"
+    "wdio-default": "WDIO_EXTERNAL_HOST='10.189.205.254' terra wdio --gridUrl grid314.test.devcernerpowerchart.com --browsers chrome --spec packages/terra-terraTestComp/tests/wdio/terraTestComp-spec.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
